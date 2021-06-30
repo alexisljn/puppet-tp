@@ -1,3 +1,5 @@
+#!/bin/sh
+HOSTNAME="$(hostname)"
 if [ "$HOSTNAME" = "control" ]; then
 	# J'installe puppet dessus
 	apt-get install -y \
